@@ -9,11 +9,11 @@ package racecreater;
  *
  * @author rainbowdash
  */
-public class RaceCreater {
+public class RaceCreater  {
 
     /**
      * @param args the command line arguments
-     */
+     */ 
     public static void main(String[] args) {
         // TODO code application logic here
     }
