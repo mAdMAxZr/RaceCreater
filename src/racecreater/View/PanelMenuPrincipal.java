@@ -14,14 +14,14 @@ import javax.swing.JPanel;
  *
  * @author mAdMAx
  */
-public class MenuPrincipal extends JPanel 
+public class PanelMenuPrincipal extends JPanel 
 {
     private JLabel title;
     private JButton newCompetition;
     private JButton credit;
     private JButton quit;
     
-    public MenuPrincipal() 
+    public PanelMenuPrincipal() 
     {
         this.initComponent();
         

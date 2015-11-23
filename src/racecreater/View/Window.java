@@ -9,7 +9,6 @@ import javax.swing.JFrame;
  */
 public class Window extends JFrame 
 {
-    
     public Window()
     {
         this.initComponent();
@@ -23,7 +22,7 @@ public class Window extends JFrame
     private void initComponent()
     {
         this.setLayout(new BorderLayout());
-        MenuPrincipal menu = new MenuPrincipal();
+        PanelMenuPrincipal menu = new PanelMenuPrincipal();
         
         this.add(menu);
     }

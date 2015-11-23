@@ -5,6 +5,9 @@
  */
 package racecreater;
 
+
+import racecreater.View.Window;
+
 /**
  *
  * @author rainbowdash
@@ -15,7 +18,9 @@ public class RaceCreater  {
      * @param args the command line arguments
      */ 
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Window win = new Window();
+        
     }
     
 }
