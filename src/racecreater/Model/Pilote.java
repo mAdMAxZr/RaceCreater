@@ -29,6 +29,17 @@ public class Pilote {
         this.numeroUCI = numUCI;
     }
     
+    /* Getters */
+    public String getNumUCI()
+    {
+        return numeroUCI;
+    }
+    
+    public PiloteCategorie getCategory()
+    {
+        return categorie;
+    }
+    
     @Override
     public String toString()
     {
