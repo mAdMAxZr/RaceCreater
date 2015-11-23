@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Row;
@@ -23,9 +24,12 @@ import racecreater.Model.PiloteCategorie;
 public class ActionReadExcel implements ActionListener {    
     private final JFileChooser chooser;
     
-    public ActionReadExcel(JFileChooser cho)
+    public ActionReadExcel()
     {
-        chooser = cho;
+        chooser = new JFileChooser();
+        
+        FileNameExtensionFilter filter = new FileNameExtensionFilter("Excel", "xlsx");
+        this.chooser.setFileFilter(filter);
     }
 
     @Override
